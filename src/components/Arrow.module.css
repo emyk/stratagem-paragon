@@ -1,0 +1,23 @@
+.arrow {
+  fill: #fff;
+}
+
+.arrow,
+.arrow > svg {
+  height: 50px;
+  width: 50px;
+}
+
+.filled {
+  fill: orangered;
+}
+
+.left {
+  transform: rotate(270deg);
+}
+.down {
+  transform: rotate(180deg);
+}
+.right {
+  transform: rotate(90deg);
+}

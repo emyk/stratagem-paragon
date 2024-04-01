@@ -1,0 +1,36 @@
+.top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  color: #ffe900;
+  font-size: 40px;
+}
+
+.stratagem {
+  align-items: center;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 8px 0;
+  padding: 8px 0;
+}
+.stratagemName {
+  margin: 0;
+}
+.stratagemKeys {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: right;
+  gap: 8px;
+}
